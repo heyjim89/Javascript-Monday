@@ -1,10 +1,10 @@
 // Variable Declarations
-var result = 10 / 3;
-alert(result);
+// var result = 10 / 3;
+// alert(result);
 
-var greeting = 'Hello' + 'World';
+// var greeting = 'Hello' + 'World';
 
-var eleven = '1'+'1';
+// var eleven = '1'+'1';
 
 // alert(eleven);
 // 
@@ -20,3 +20,22 @@ var eleven = '1'+'1';
 
 // Strings are zereo indexed 
 // 
+
+// If-else Chain
+
+// var age = 19;
+
+var age = 19;
+var canDrink;
+var country = 'Ireland';
+if ( age >= 21 ) {
+	canDrink = true;
+}
+else if ( age >= 18 && country === 'Ireland' ){
+	canDrink = true;
+}
+else {
+	canDrink = false;
+}
+
+alert('Will you be serverd?' + canDrink);
