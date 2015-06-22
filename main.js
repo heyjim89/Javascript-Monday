@@ -25,17 +25,21 @@
 
 // var age = 19;
 
-var age = 19;
-var canDrink;
-var country = 'Ireland';
-if ( age >= 21 ) {
-	canDrink = true;
-}
-else if ( age >= 18 && country === 'Ireland' ){
-	canDrink = true;
-}
-else {
-	canDrink = false;
-}
+// var age = 19;
+// var canDrink;
+// var country = 'Ireland';
+// if ( age >= 21 ) {
+// 	canDrink = true;
+// }
+// else if ( age >= 18 &&  (( country === 'Ireland' ) || (country === 'Norway')) ){
+// 	canDrink = true;
+// }
+// else if ( someOtherCondition ) {
 
-alert('Will you be serverd?' + canDrink);
+// }
+
+// else {
+// 	canDrink = false;
+// }
+
+// alert('Will you be serverd?' + canDrink);
